@@ -1,0 +1,100 @@
+.excellence2
+  display: grid 
+  grid-template-columns: 440px 1fr 
+  &__content
+    background: #E51937
+    padding: 50px 55px 60px 40px 
+    width: 100%
+  &__content-title
+    +semi 
+    font-size: 30px 
+    line-height: 36px 
+  &__content-text
+    margin-top: 10px
+    +med 
+    font-size: 15px 
+    line-height: 18px  
+  &__content-body
+    margin-top: 50px 
+  &__content-bodyTitle
+    +semi 
+    font-size: 30px 
+    line-height: 36px 
+    margin-bottom: 30px 
+  &__content-item
+    display: grid 
+    grid-template-columns: max-content max-content
+    align-items: center
+    justify-content: space-between
+    grid-column-gap: 30px 
+    text-transform: uppercase
+    +bold 
+    font-size: 17px 
+    line-height: 20px 
+    margin-top: 15px 
+    &_small
+      display: inline-block
+      font-size: 10px 
+      line-height: 12px 
+      color: rgba(#fff,.7)
+  &__content-itemImg
+    width: 25px 
+    height: 25px 
+  &__content-result
+    margin-top: 110px 
+    display: grid 
+    grid-template-columns: max-content 1fr 
+    align-items: center
+    grid-column-gap: 20px 
+    &_small
+      display: block 
+      font-size: 25px 
+      line-height: 30px 
+      text-transform: none 
+  &__content-resultImg
+    width: 62px 
+    height: 74px 
+  &__content-resultInfo
+    text-transform: uppercase
+    +semi 
+    font-size: 50px 
+    line-height: 61px 
+  &__content-nav
+    margin-top: 60px 
+    display: grid 
+    grid-template-columns: max-content max-content
+    align-items: center
+    justify-content: space-between
+    grid-column-gap: 20px 
+  &__content-link
+    text-transform: uppercase
+    color: #fff
+    +bold 
+    font-size: 13px 
+    line-height: 15px 
+  &__content-navImg
+    width: 22px 
+    height: 22px 
+    margin-right: 5px 
+  &__content-btn
+    border: 2px solid #fff
+    color: #fff
+    z-index: 0
+    &::before
+      background: #fff
+    &:hover
+      color: #E51937
+    &:focus
+      border: 2px solid #fff  
+  &__images
+    margin-top: 100px 
+  &__bg
+    background: url(../images/excellence2/bg.png) no-repeat 
+    background-size: cover 
+    background-position: center
+    height: 151px 
+    max-width: 793px 
+    margin-left: auto 
+  &__img
+    transform: translateX(-100px)
+

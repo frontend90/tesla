@@ -1,0 +1,84 @@
+.excellence1
+  display: grid 
+  grid-template-columns: 1fr 440px 
+  align-items: end 
+  margin-top: 35px 
+  &__left
+    width: 100%
+  &__title
+    color: #E51937
+    +semi 
+    font-size: 90px 
+    line-height: 85px 
+    padding-left: 80px 
+    transform: translateY(75px)
+  &__bg
+    background: url(../images/excellence1/bg.png) no-repeat 
+    background-size: cover 
+    background-position: center
+    width: 100%
+    height: 844px
+  &__content
+    background: #E51937
+    padding: 50px 45px 60px 50px 
+  &__content-title
+    +semi 
+    font-size: 30px 
+    line-height: 36px 
+  &__content-text
+    margin-top: 10px 
+    line-height: 18px 
+    font-size: 15px 
+    +med 
+  &__content-body
+    margin-top: 55px 
+  &__content-item
+    display: grid 
+    grid-template-columns: max-content 1fr 
+    align-items: center
+    grid-column-gap: 20px 
+    margin-bottom: 35px 
+    &:last-of-type
+      margin-bottom: 0
+  &__content-img
+    width: 44px 
+  &__content-header
+    +semi 
+    font-size: 35px 
+    line-height: 42px 
+    &_small
+      display: inline-block
+      font-size: 20px 
+      line-height: 24px 
+  &__content-footer
+    +reg 
+    font-size: 12px 
+    line-height: 14px 
+  &__content-nav
+    display: grid 
+    grid-template-columns: max-content max-content
+    align-items: center
+    justify-content: space-between
+    margin-top: 170px 
+  &__content-link
+    display: inline-block
+    color: #fff
+    +bold 
+    font-size: 13px 
+    line-height: 15px 
+    text-transform: uppercase
+  &__content-navImg
+    width: 22px 
+    height: 22px 
+    margin-right: 5px 
+  &__content-btn
+    border: 2px solid #fff
+    color: #fff
+    z-index: 0
+    &::before
+      background: #fff
+    &:hover
+      color: #E51937
+    &:focus
+      border: 2px solid #fff     
+

@@ -1,0 +1,90 @@
+.header
+  min-height: 100vh 
+  &__main
+    margin-top: 75px 
+  &__main-title
+    +semi 
+    color: #000
+    text-align: center
+    font-size: 90px 
+    line-height: 109px 
+    &_small
+      display: block 
+      +med 
+      font-size: 15px
+      line-height: 18px 
+  &__main-images
+    text-align: center
+    margin-top: 25px 
+  &__main-brand
+    background: url(../images/header/bg.png) no-repeat 
+    background-size: contain
+    background-position: top 
+    width: 100%
+    height: 186px
+  &__main-img 
+    max-width: 100%
+    max-height: 450px
+    margin-top: -180px
+  &__main-offer
+    display: grid
+    grid-template-columns: repeat(4, max-content)
+    align-items: center
+    justify-content: center
+    grid-column-gap: 80px 
+    margin-top: 25px 
+  &__main-item
+    display: grid 
+    grid-template-columns: max-content 1fr 
+    align-items: center
+    grid-column-gap: 10px 
+    &_test
+      margin-left: 25px 
+      & .header__main-info
+        font-size: 13px
+        +bold 
+        line-height: 15px 
+        text-transform: uppercase 
+  &__main-info
+    color: #000
+    +semi 
+    font-size: 35px 
+    line-height: 42px 
+    &_small
+      display: inline-block
+      font-size: 20px 
+      line-height: 24px 
+    &_excellence
+      +reg 
+      font-size: 12px 
+      line-height: 14px 
+  &__main-btn
+    margin-left: -40px
+    border: 2px solid #E51937
+    color: #E51937 
+    &::before
+      background: #E51937
+    &:hover
+      color: #fff
+    &:focus
+      border: 2px solid #E51937
+  &__arrow
+    text-align: center
+    margin-top: 40px 
+  &__arrow-link
+    display: inline-block
+    width: 28px 
+    height: 14px 
+    animation: scrolldown 2s cubic-bezier(0.19, 1, 0.22, 1) infinite
+@keyframes scrolldown 
+  0% 
+    transform: translate(0, -20px)
+    opacity: 0
+  50% 
+    opacity: 1
+  100% 
+    transform: translate(0, 20px)
+    opacity: 0
+
+
+
